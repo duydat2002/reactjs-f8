@@ -1,7 +1,12 @@
 import "./App.scss";
+import TodoFeature from "./features/Todo";
 
 function App() {
-    return <div className="App">Hello</div>;
+    return (
+        <div className="App">
+            <TodoFeature />
+        </div>
+    );
 }
 
 export default App;
